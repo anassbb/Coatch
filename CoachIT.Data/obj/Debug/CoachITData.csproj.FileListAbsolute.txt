@@ -1,0 +1,14 @@
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\CoachIT.Data.dll.config
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\CoachIT.Data.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\CoachIT.Data.pdb
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\EntityFramework.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\EntityFramework.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\obj\Debug\CoachITData.csprojResolveAssemblyReference.cache
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\obj\Debug\CoachIT.Data.Migrations.MyFirstMigration.resources
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\obj\Debug\CoachITData.csproj.GenerateResource.Cache
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\obj\Debug\CoachIT.Data.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Data\obj\Debug\CoachIT.Data.pdb

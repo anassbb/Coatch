@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CoachITBaseModelStoreContainer" CdmEntityContainer="CoachITBaseEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="CoachITBaseModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Catégorie">
+      <EntityTypeMapping TypeName="CoachITBaseModel.Catégorie">
+        <MappingFragment StoreEntitySet="Catégorie">
+          <ScalarProperty Name="CategorieId" ColumnName="CategorieId" />
+          <ScalarProperty Name="Catégorie1" ColumnName="Catégorie" />
+          <ScalarProperty Name="Date_de_Création" ColumnName="Date de Création" />
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Classements">
+      <EntityTypeMapping TypeName="CoachITBaseModel.Classement">
+        <MappingFragment StoreEntitySet="Classements">
+          <ScalarProperty Name="ClassementId" ColumnName="ClassementId" />
+          <ScalarProperty Name="DateMaj" ColumnName="DateMaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="CoachITBaseModel.Question">
+        <MappingFragment StoreEntitySet="Question">
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="Enoncé_Question" ColumnName="Enoncé Question" />
+          <ScalarProperty Name="Date_Insertion" ColumnName="Date Insertion" />
+          <ScalarProperty Name="TestGénéré_TestId" ColumnName="TestGénéré_TestId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionProposée">
+      <EntityTypeMapping TypeName="CoachITBaseModel.QuestionProposée">
+        <MappingFragment StoreEntitySet="QuestionProposée">
+          <ScalarProperty Name="QuestionPropid" ColumnName="QuestionPropid" />
+          <ScalarProperty Name="Enoncé_Question" ColumnName="Enoncé Question" />
+          <ScalarProperty Name="Date_Insertion" ColumnName="Date Insertion" />
+          <ScalarProperty Name="TestProposé_TestId" ColumnName="TestProposé_TestId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Réponse">
+      <EntityTypeMapping TypeName="CoachITBaseModel.Réponse">
+        <MappingFragment StoreEntitySet="Réponse">
+          <ScalarProperty Name="Réponseid" ColumnName="Réponseid" />
+          <ScalarProperty Name="Réponse1" ColumnName="Réponse" />
+          <ScalarProperty Name="Date_d_ajout" ColumnName="Date d'ajout" />
+          <ScalarProperty Name="Type_Réponse" ColumnName="Type Réponse" />
+          <ScalarProperty Name="Question_QuestionId" ColumnName="Question_QuestionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RéponseQuestionProposée">
+      <EntityTypeMapping TypeName="CoachITBaseModel.RéponseQuestionProposée">
+        <MappingFragment StoreEntitySet="RéponseQuestionProposée">
+          <ScalarProperty Name="RéponsePid" ColumnName="RéponsePid" />
+          <ScalarProperty Name="Réponse" ColumnName="Réponse" />
+          <ScalarProperty Name="Date_d_ajout" ColumnName="Date d'ajout" />
+          <ScalarProperty Name="Type_Réponse" ColumnName="Type Réponse" />
+          <ScalarProperty Name="QuestionProposé_QuestionPropid" ColumnName="QuestionProposé_QuestionPropid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SousCatégorie">
+      <EntityTypeMapping TypeName="CoachITBaseModel.SousCatégorie">
+        <MappingFragment StoreEntitySet="SousCatégorie">
+          <ScalarProperty Name="SousCategorieId" ColumnName="SousCategorieId" />
+          <ScalarProperty Name="Sous_Catégorie" ColumnName="Sous Catégorie" />
+          <ScalarProperty Name="Date_de_Création" ColumnName="Date de Création" />
+          <ScalarProperty Name="Catégorie_CategorieId" ColumnName="Catégorie_CategorieId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tests">
+      <EntityTypeMapping TypeName="CoachITBaseModel.Test">
+        <MappingFragment StoreEntitySet="Tests">
+          <ScalarProperty Name="TestId" ColumnName="TestId" />
+          <ScalarProperty Name="Date_de_proposition" ColumnName="Date de proposition" />
+          <ScalarProperty Name="Durée" ColumnName="Durée" />
+          <ScalarProperty Name="Nbre_Question" ColumnName="Nbre Question" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Niveau" ColumnName="Niveau" />
+          <ScalarProperty Name="Coéfficient" ColumnName="Coéfficient" />
+          <ScalarProperty Name="Date_Limite" ColumnName="Date Limite" />
+          <ScalarProperty Name="Etat" ColumnName="Etat" />
+          <ScalarProperty Name="SousCatégorie_SousCategorieId" ColumnName="SousCatégorie_SousCategorieId" />
+          <ScalarProperty Name="TestType" ColumnName="TestType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Utilisateurs">
+      <EntityTypeMapping TypeName="CoachITBaseModel.Utilisateur">
+        <MappingFragment StoreEntitySet="Utilisateurs">
+          <ScalarProperty Name="ID_User" ColumnName="ID User" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="Mot_de_passe" ColumnName="Mot de passe" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Adresse" ColumnName="Adresse" />
+          <ScalarProperty Name="Téléphone" ColumnName="Téléphone" />
+          <ScalarProperty Name="Activer_Désactiver_" ColumnName="Activer/Désactiver " />
+          <ScalarProperty Name="Date_Inscription_" ColumnName="Date Inscription " />
+          <ScalarProperty Name="Date_Last_Activity_" ColumnName="Date Last Activity " />
+          <ScalarProperty Name="Date_de_changement_de_MDP_" ColumnName="Date de changement de MDP " />
+          <ScalarProperty Name="NomAdmin" ColumnName="NomAdmin" />
+          <ScalarProperty Name="PrénomAdmin" ColumnName="PrénomAdmin" />
+          <ScalarProperty Name="Cin_Admin" ColumnName="Cin Admin" />
+          <ScalarProperty Name="Nom_Candidat" ColumnName="Nom Candidat" />
+          <ScalarProperty Name="Prénom_Admin" ColumnName="Prénom Admin" />
+          <ScalarProperty Name="Cin_Candidat" ColumnName="Cin Candidat" />
+          <ScalarProperty Name="Profession" ColumnName="Profession" />
+          <ScalarProperty Name="Nationalité" ColumnName="Nationalité" />
+          <ScalarProperty Name="Alias" ColumnName="Alias" />
+          <ScalarProperty Name="Raison_Social" ColumnName="Raison Social" />
+          <ScalarProperty Name="Date_de_Création" ColumnName="Date de Création" />
+          <ScalarProperty Name="Registre_Commercial" ColumnName="Registre Commercial" />
+          <ScalarProperty Name="Secteur" ColumnName="Secteur" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

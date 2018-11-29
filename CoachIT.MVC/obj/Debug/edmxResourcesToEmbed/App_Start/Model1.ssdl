@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CoachITBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Catégorie">
+    <Key>
+      <PropertyRef Name="CategorieId" />
+    </Key>
+    <Property Name="CategorieId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Catégorie" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Date de Création" Type="datetime" Nullable="false" />
+    <Property Name="AdminId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Classements">
+    <Key>
+      <PropertyRef Name="ClassementId" />
+    </Key>
+    <Property Name="ClassementId" Type="int" Nullable="false" />
+    <Property Name="DateMaj" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QuestionId" />
+    </Key>
+    <Property Name="QuestionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Enoncé Question" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Date Insertion" Type="datetime" Nullable="false" />
+    <Property Name="TestGénéré_TestId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuestionProposée">
+    <Key>
+      <PropertyRef Name="QuestionPropid" />
+    </Key>
+    <Property Name="QuestionPropid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Enoncé Question" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Date Insertion" Type="datetime" Nullable="false" />
+    <Property Name="TestProposé_TestId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Réponse">
+    <Key>
+      <PropertyRef Name="Réponseid" />
+    </Key>
+    <Property Name="Réponseid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Réponse" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Date d'ajout" Type="datetime" Nullable="false" />
+    <Property Name="Type Réponse" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Question_QuestionId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RéponseQuestionProposée">
+    <Key>
+      <PropertyRef Name="RéponsePid" />
+    </Key>
+    <Property Name="RéponsePid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Réponse" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Date d'ajout" Type="datetime" Nullable="false" />
+    <Property Name="Type Réponse" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="QuestionProposé_QuestionPropid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SousCatégorie">
+    <Key>
+      <PropertyRef Name="SousCategorieId" />
+    </Key>
+    <Property Name="SousCategorieId" Type="int" Nullable="false" />
+    <Property Name="Sous Catégorie" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Date de Création" Type="datetime" Nullable="false" />
+    <Property Name="Catégorie_CategorieId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tests">
+    <Key>
+      <PropertyRef Name="TestId" />
+    </Key>
+    <Property Name="TestId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date de proposition" Type="datetime" Nullable="false" />
+    <Property Name="Durée" Type="int" Nullable="false" />
+    <Property Name="Nbre Question" Type="int" Nullable="false" />
+    <Property Name="Type" Type="bit" Nullable="false" />
+    <Property Name="Niveau" Type="nvarchar(max)" />
+    <Property Name="Coéfficient" Type="int" />
+    <Property Name="Date Limite" Type="datetime" />
+    <Property Name="Etat" Type="bit" />
+    <Property Name="SousCatégorie_SousCategorieId" Type="int" />
+    <Property Name="TestType" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Utilisateurs">
+    <Key>
+      <PropertyRef Name="ID User" />
+    </Key>
+    <Property Name="ID User" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="30" />
+    <Property Name="Mot de passe" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="Adresse" Type="nvarchar(max)" />
+    <Property Name="Téléphone" Type="int" />
+    <Property Name="Activer/Désactiver " Type="bit" />
+    <Property Name="Date Inscription " Type="datetime" />
+    <Property Name="Date Last Activity " Type="datetime" />
+    <Property Name="Date de changement de MDP " Type="datetime" />
+    <Property Name="NomAdmin" Type="nvarchar" MaxLength="30" />
+    <Property Name="PrénomAdmin" Type="nvarchar" MaxLength="30" />
+    <Property Name="Cin Admin" Type="int" />
+    <Property Name="Nom Candidat" Type="nvarchar" MaxLength="30" />
+    <Property Name="Prénom Admin" Type="nvarchar" MaxLength="30" />
+    <Property Name="Cin Candidat" Type="int" />
+    <Property Name="Profession" Type="nvarchar" MaxLength="30" />
+    <Property Name="Nationalité" Type="nvarchar" MaxLength="30" />
+    <Property Name="Alias" Type="nvarchar" MaxLength="30" />
+    <Property Name="Raison Social" Type="nvarchar" MaxLength="30" />
+    <Property Name="Date de Création" Type="datetime" />
+    <Property Name="Registre Commercial" Type="int" />
+    <Property Name="Secteur" Type="nvarchar" MaxLength="100" />
+    <Property Name="UserType" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <Association Name="FK_dbo_Question_dbo_Tests_TestGénéré_TestId">
+    <End Role="Tests" Type="Self.Tests" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Question" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tests">
+        <PropertyRef Name="TestId" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="TestGénéré_TestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_QuestionProposée_dbo_Tests_TestProposé_TestId">
+    <End Role="Tests" Type="Self.Tests" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="QuestionProposée" Type="Self.QuestionProposée" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tests">
+        <PropertyRef Name="TestId" />
+      </Principal>
+      <Dependent Role="QuestionProposée">
+        <PropertyRef Name="TestProposé_TestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Réponse_dbo_Question_Question_QuestionId">
+    <End Role="Question" Type="Self.Question" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Réponse" Type="Self.Réponse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="QuestionId" />
+      </Principal>
+      <Dependent Role="Réponse">
+        <PropertyRef Name="Question_QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_RéponseQuestionProposée_dbo_QuestionProposée_QuestionProposé_QuestionPropid">
+    <End Role="QuestionProposée" Type="Self.QuestionProposée" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RéponseQuestionProposée" Type="Self.RéponseQuestionProposée" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionProposée">
+        <PropertyRef Name="QuestionPropid" />
+      </Principal>
+      <Dependent Role="RéponseQuestionProposée">
+        <PropertyRef Name="QuestionProposé_QuestionPropid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_SousCatégorie_dbo_Catégorie_Catégorie_CategorieId">
+    <End Role="Catégorie" Type="Self.Catégorie" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SousCatégorie" Type="Self.SousCatégorie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Catégorie">
+        <PropertyRef Name="CategorieId" />
+      </Principal>
+      <Dependent Role="SousCatégorie">
+        <PropertyRef Name="Catégorie_CategorieId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Tests_dbo_SousCatégorie_SousCatégorie_SousCategorieId">
+    <End Role="SousCatégorie" Type="Self.SousCatégorie" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Tests" Type="Self.Tests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SousCatégorie">
+        <PropertyRef Name="SousCategorieId" />
+      </Principal>
+      <Dependent Role="Tests">
+        <PropertyRef Name="SousCatégorie_SousCategorieId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CoachITBaseModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Catégorie" EntityType="Self.Catégorie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Classements" EntityType="Self.Classements" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Question" EntityType="Self.Question" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuestionProposée" EntityType="Self.QuestionProposée" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Réponse" EntityType="Self.Réponse" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RéponseQuestionProposée" EntityType="Self.RéponseQuestionProposée" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SousCatégorie" EntityType="Self.SousCatégorie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tests" EntityType="Self.Tests" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Utilisateurs" EntityType="Self.Utilisateurs" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_Question_dbo_Tests_TestGénéré_TestId" Association="Self.FK_dbo_Question_dbo_Tests_TestGénéré_TestId">
+      <End Role="Tests" EntitySet="Tests" />
+      <End Role="Question" EntitySet="Question" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_QuestionProposée_dbo_Tests_TestProposé_TestId" Association="Self.FK_dbo_QuestionProposée_dbo_Tests_TestProposé_TestId">
+      <End Role="Tests" EntitySet="Tests" />
+      <End Role="QuestionProposée" EntitySet="QuestionProposée" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Réponse_dbo_Question_Question_QuestionId" Association="Self.FK_dbo_Réponse_dbo_Question_Question_QuestionId">
+      <End Role="Question" EntitySet="Question" />
+      <End Role="Réponse" EntitySet="Réponse" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_RéponseQuestionProposée_dbo_QuestionProposée_QuestionProposé_QuestionPropid" Association="Self.FK_dbo_RéponseQuestionProposée_dbo_QuestionProposée_QuestionProposé_QuestionPropid">
+      <End Role="QuestionProposée" EntitySet="QuestionProposée" />
+      <End Role="RéponseQuestionProposée" EntitySet="RéponseQuestionProposée" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_SousCatégorie_dbo_Catégorie_Catégorie_CategorieId" Association="Self.FK_dbo_SousCatégorie_dbo_Catégorie_Catégorie_CategorieId">
+      <End Role="Catégorie" EntitySet="Catégorie" />
+      <End Role="SousCatégorie" EntitySet="SousCatégorie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Tests_dbo_SousCatégorie_SousCatégorie_SousCategorieId" Association="Self.FK_dbo_Tests_dbo_SousCatégorie_SousCatégorie_SousCategorieId">
+      <End Role="SousCatégorie" EntitySet="SousCatégorie" />
+      <End Role="Tests" EntitySet="Tests" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

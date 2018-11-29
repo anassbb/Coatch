@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CoachITBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Catégorie">
+    <Key>
+      <PropertyRef Name="CategorieId" />
+    </Key>
+    <Property Name="CategorieId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Catégorie1" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date_de_Création" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AdminId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="SousCatégorie" Relationship="Self.FK_dbo_SousCatégorie_dbo_Catégorie_Catégorie_CategorieId" FromRole="Catégorie" ToRole="SousCatégorie" />
+  </EntityType>
+  <EntityType Name="Classement">
+    <Key>
+      <PropertyRef Name="ClassementId" />
+    </Key>
+    <Property Name="ClassementId" Type="Int32" Nullable="false" />
+    <Property Name="DateMaj" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QuestionId" />
+    </Key>
+    <Property Name="QuestionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Enoncé_Question" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date_Insertion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TestGénéré_TestId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Test" Relationship="Self.FK_dbo_Question_dbo_Tests_TestGénéré_TestId" FromRole="Question" ToRole="Tests" />
+    <NavigationProperty Name="Réponse" Relationship="Self.FK_dbo_Réponse_dbo_Question_Question_QuestionId" FromRole="Question" ToRole="Réponse" />
+  </EntityType>
+  <EntityType Name="QuestionProposée">
+    <Key>
+      <PropertyRef Name="QuestionPropid" />
+    </Key>
+    <Property Name="QuestionPropid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Enoncé_Question" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date_Insertion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TestProposé_TestId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Test" Relationship="Self.FK_dbo_QuestionProposée_dbo_Tests_TestProposé_TestId" FromRole="QuestionProposée" ToRole="Tests" />
+    <NavigationProperty Name="RéponseQuestionProposée" Relationship="Self.FK_dbo_RéponseQuestionProposée_dbo_QuestionProposée_QuestionProposé_QuestionPropid" FromRole="QuestionProposée" ToRole="RéponseQuestionProposée" />
+  </EntityType>
+  <EntityType Name="Réponse">
+    <Key>
+      <PropertyRef Name="Réponseid" />
+    </Key>
+    <Property Name="Réponseid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Réponse1" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date_d_ajout" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Type_Réponse" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Question_QuestionId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Question" Relationship="Self.FK_dbo_Réponse_dbo_Question_Question_QuestionId" FromRole="Réponse" ToRole="Question" />
+  </EntityType>
+  <EntityType Name="RéponseQuestionProposée">
+    <Key>
+      <PropertyRef Name="RéponsePid" />
+    </Key>
+    <Property Name="RéponsePid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Réponse" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date_d_ajout" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Type_Réponse" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="QuestionProposé_QuestionPropid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="QuestionProposée" Relationship="Self.FK_dbo_RéponseQuestionProposée_dbo_QuestionProposée_QuestionProposé_QuestionPropid" FromRole="RéponseQuestionProposée" ToRole="QuestionProposée" />
+  </EntityType>
+  <EntityType Name="SousCatégorie">
+    <Key>
+      <PropertyRef Name="SousCategorieId" />
+    </Key>
+    <Property Name="SousCategorieId" Type="Int32" Nullable="false" />
+    <Property Name="Sous_Catégorie" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date_de_Création" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Catégorie_CategorieId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Catégorie" Relationship="Self.FK_dbo_SousCatégorie_dbo_Catégorie_Catégorie_CategorieId" FromRole="SousCatégorie" ToRole="Catégorie" />
+    <NavigationProperty Name="Tests" Relationship="Self.FK_dbo_Tests_dbo_SousCatégorie_SousCatégorie_SousCategorieId" FromRole="SousCatégorie" ToRole="Tests" />
+  </EntityType>
+  <EntityType Name="Test">
+    <Key>
+      <PropertyRef Name="TestId" />
+    </Key>
+    <Property Name="TestId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date_de_proposition" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Durée" Type="Int32" Nullable="false" />
+    <Property Name="Nbre_Question" Type="Int32" Nullable="false" />
+    <Property Name="Type" Type="Boolean" Nullable="false" />
+    <Property Name="Niveau" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Coéfficient" Type="Int32" />
+    <Property Name="Date_Limite" Type="DateTime" Precision="3" />
+    <Property Name="Etat" Type="Boolean" />
+    <Property Name="SousCatégorie_SousCategorieId" Type="Int32" />
+    <Property Name="TestType" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_dbo_Question_dbo_Tests_TestGénéré_TestId" FromRole="Tests" ToRole="Question" />
+    <NavigationProperty Name="QuestionProposée" Relationship="Self.FK_dbo_QuestionProposée_dbo_Tests_TestProposé_TestId" FromRole="Tests" ToRole="QuestionProposée" />
+    <NavigationProperty Name="SousCatégorie" Relationship="Self.FK_dbo_Tests_dbo_SousCatégorie_SousCatégorie_SousCategorieId" FromRole="Tests" ToRole="SousCatégorie" />
+  </EntityType>
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="ID_User" />
+    </Key>
+    <Property Name="ID_User" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="login" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Mot_de_passe" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Téléphone" Type="Int32" />
+    <Property Name="Activer_Désactiver_" Type="Boolean" />
+    <Property Name="Date_Inscription_" Type="DateTime" Precision="3" />
+    <Property Name="Date_Last_Activity_" Type="DateTime" Precision="3" />
+    <Property Name="Date_de_changement_de_MDP_" Type="DateTime" Precision="3" />
+    <Property Name="NomAdmin" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="PrénomAdmin" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Cin_Admin" Type="Int32" />
+    <Property Name="Nom_Candidat" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Prénom_Admin" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Cin_Candidat" Type="Int32" />
+    <Property Name="Profession" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Nationalité" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Alias" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Raison_Social" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Date_de_Création" Type="DateTime" Precision="3" />
+    <Property Name="Registre_Commercial" Type="Int32" />
+    <Property Name="Secteur" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UserType" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_dbo_SousCatégorie_dbo_Catégorie_Catégorie_CategorieId">
+    <End Role="Catégorie" Type="Self.Catégorie" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SousCatégorie" Type="Self.SousCatégorie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Catégorie">
+        <PropertyRef Name="CategorieId" />
+      </Principal>
+      <Dependent Role="SousCatégorie">
+        <PropertyRef Name="Catégorie_CategorieId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Question_dbo_Tests_TestGénéré_TestId">
+    <End Role="Tests" Type="Self.Test" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Question" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tests">
+        <PropertyRef Name="TestId" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="TestGénéré_TestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Réponse_dbo_Question_Question_QuestionId">
+    <End Role="Question" Type="Self.Question" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Réponse" Type="Self.Réponse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="QuestionId" />
+      </Principal>
+      <Dependent Role="Réponse">
+        <PropertyRef Name="Question_QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_QuestionProposée_dbo_Tests_TestProposé_TestId">
+    <End Role="Tests" Type="Self.Test" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="QuestionProposée" Type="Self.QuestionProposée" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tests">
+        <PropertyRef Name="TestId" />
+      </Principal>
+      <Dependent Role="QuestionProposée">
+        <PropertyRef Name="TestProposé_TestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_RéponseQuestionProposée_dbo_QuestionProposée_QuestionProposé_QuestionPropid">
+    <End Role="QuestionProposée" Type="Self.QuestionProposée" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RéponseQuestionProposée" Type="Self.RéponseQuestionProposée" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionProposée">
+        <PropertyRef Name="QuestionPropid" />
+      </Principal>
+      <Dependent Role="RéponseQuestionProposée">
+        <PropertyRef Name="QuestionProposé_QuestionPropid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Tests_dbo_SousCatégorie_SousCatégorie_SousCategorieId">
+    <End Role="SousCatégorie" Type="Self.SousCatégorie" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Tests" Type="Self.Test" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SousCatégorie">
+        <PropertyRef Name="SousCategorieId" />
+      </Principal>
+      <Dependent Role="Tests">
+        <PropertyRef Name="SousCatégorie_SousCategorieId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CoachITBaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="Catégorie" EntityType="Self.Catégorie" />
+    <EntitySet Name="Classements" EntityType="Self.Classement" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="QuestionProposée" EntityType="Self.QuestionProposée" />
+    <EntitySet Name="Réponse" EntityType="Self.Réponse" />
+    <EntitySet Name="RéponseQuestionProposée" EntityType="Self.RéponseQuestionProposée" />
+    <EntitySet Name="SousCatégorie" EntityType="Self.SousCatégorie" />
+    <EntitySet Name="Tests" EntityType="Self.Test" />
+    <EntitySet Name="Utilisateurs" EntityType="Self.Utilisateur" />
+    <AssociationSet Name="FK_dbo_SousCatégorie_dbo_Catégorie_Catégorie_CategorieId" Association="Self.FK_dbo_SousCatégorie_dbo_Catégorie_Catégorie_CategorieId">
+      <End Role="Catégorie" EntitySet="Catégorie" />
+      <End Role="SousCatégorie" EntitySet="SousCatégorie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Question_dbo_Tests_TestGénéré_TestId" Association="Self.FK_dbo_Question_dbo_Tests_TestGénéré_TestId">
+      <End Role="Tests" EntitySet="Tests" />
+      <End Role="Question" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Réponse_dbo_Question_Question_QuestionId" Association="Self.FK_dbo_Réponse_dbo_Question_Question_QuestionId">
+      <End Role="Question" EntitySet="Questions" />
+      <End Role="Réponse" EntitySet="Réponse" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_QuestionProposée_dbo_Tests_TestProposé_TestId" Association="Self.FK_dbo_QuestionProposée_dbo_Tests_TestProposé_TestId">
+      <End Role="Tests" EntitySet="Tests" />
+      <End Role="QuestionProposée" EntitySet="QuestionProposée" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_RéponseQuestionProposée_dbo_QuestionProposée_QuestionProposé_QuestionPropid" Association="Self.FK_dbo_RéponseQuestionProposée_dbo_QuestionProposée_QuestionProposé_QuestionPropid">
+      <End Role="QuestionProposée" EntitySet="QuestionProposée" />
+      <End Role="RéponseQuestionProposée" EntitySet="RéponseQuestionProposée" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Tests_dbo_SousCatégorie_SousCatégorie_SousCategorieId" Association="Self.FK_dbo_Tests_dbo_SousCatégorie_SousCatégorie_SousCategorieId">
+      <End Role="SousCatégorie" EntitySet="SousCatégorie" />
+      <End Role="Tests" EntitySet="Tests" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,115 @@
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\CoachIT.Domain.dll.config
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\fr\System.Web.Helpers.resources.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\fr\System.Web.Mvc.resources.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\fr\System.Web.Razor.resources.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.resources.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\obj\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Domain\obj\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\CoachIT.Domain.dll.config
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\fr\System.Web.Helpers.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\fr\System.Web.Mvc.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\fr\System.Web.Razor.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\obj\Debug\CoachIT.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\obj\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Domain\obj\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\CoachIT.Domain.dll.config
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.Helpers.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.Mvc.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.Razor.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\obj\Debug\CoachIT.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\obj\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Domain\obj\Debug\CoachIT.Domain.pdb
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\CoachIT.Domain.dll.config
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\CoachIT.Domain.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\CoachIT.Domain.pdb
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\EntityFramework.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\EntityFramework.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.Helpers.resources.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.Mvc.resources.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.Razor.resources.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.resources.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\bin\Debug\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\obj\Debug\CoachIT.Domain.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\obj\Debug\CoachIT.Domain.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Domain\obj\Debug\CoachIT.Domain.pdb

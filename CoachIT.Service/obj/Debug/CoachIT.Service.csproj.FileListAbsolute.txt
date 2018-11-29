@@ -1,0 +1,44 @@
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\bin\Debug\CoachIT.Service.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\bin\Debug\CoachIT.Service.pdb
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\bin\Debug\CoachIT.Data.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\bin\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\bin\Debug\EntityFramework.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\bin\Debug\CoachIT.Data.pdb
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\bin\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\bin\Debug\EntityFramework.xml
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\obj\Debug\CoachIT.Service.csprojResolveAssemblyReference.cache
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\obj\Debug\CoachIT.Service.dll
+C:\Users\Osvorn\documents\visual studio 2015\Projects\CoachITProject\CoachIT.Service\obj\Debug\CoachIT.Service.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\bin\Debug\CoachIT.Service.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\bin\Debug\CoachIT.Service.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\bin\Debug\CoachIT.Data.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\bin\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\bin\Debug\EntityFramework.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\bin\Debug\CoachIT.Data.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\bin\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\bin\Debug\EntityFramework.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\obj\Debug\CoachIT.Service.csprojResolveAssemblyReference.cache
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\obj\Debug\CoachIT.Service.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachITTelerik\CoachIT.Service\obj\Debug\CoachIT.Service.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Service.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Service.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Data.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Domain.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\bin\Debug\EntityFramework.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Data.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Domain.pdb
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\bin\Debug\EntityFramework.xml
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\obj\Debug\CoachIT.Service.csprojResolveAssemblyReference.cache
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\obj\Debug\CoachIT.Service.dll
+C:\Users\Osvorn\Documents\Visual Studio 2015\Projects\CoachIT\CoachIT.Service\obj\Debug\CoachIT.Service.pdb
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Service.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Service.pdb
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Data.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Domain.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\bin\Debug\EntityFramework.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Data.pdb
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\bin\Debug\CoachIT.Domain.pdb
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\bin\Debug\EntityFramework.xml
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\obj\Debug\CoachIT.Service.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\obj\Debug\CoachIT.Service.dll
+C:\Users\asus\Desktop\PFE2017\Nouveau dossier\CoachIT\CoachIT\CoachIT.Service\obj\Debug\CoachIT.Service.pdb
